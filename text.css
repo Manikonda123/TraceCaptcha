@@ -1,0 +1,84 @@
+body
+{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color:dodgerblue
+
+}
+.wrapper
+{
+    width: 650px;
+    height: 450px;
+    background-color: azure;
+    border-radius: 10px;
+
+}
+
+.wrapper .captcha-area{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    margin: -18px 0 -10px 0;
+}
+
+.captcha-area .captcha-img{
+    float: left;
+    align-self: center;
+    width: 70%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    border-radius: 5px;
+}
+
+.captcha-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.95;
+  }
+
+.captcha-area .whiteboard{
+    float: right;
+    align-self: center;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.wrapper button{
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background: #4db2ec;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .wrapper button:hover{
+    background: #2fa5e9;
+  }
+  .wrapper .reload-btn{
+     align-self: center;
+    font-size: 25px;
+    position: relative;
+	left: 340px;
+  }
+  .wrapper .reload-btn i{
+    transition: transform 0.3s ease;
+  }
+  .wrapper .reload-btn:hover i{
+    transform: rotate(15deg);
+  }
+
+  .wrapper .check-btn{
+    float: right;
+    position: relative;
+    right: 30px;
+    font-size: 25px;
+  }
