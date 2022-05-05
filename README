@@ -1,5 +1,10 @@
 So i made a program using html, css, and python
 
+Just run the capthcatest.html
+then RUN OPENVS.PY
+
+NOT OPENCV.JS
+
 It is supposed to show you some shapes, and you need to re-draw them on the board and check it to see if it is the correct shape.
 
 I transformed the drawing into data uri so it can be stored on local storage. The concept was supposed to be a python program that takes the data uri and transforms
