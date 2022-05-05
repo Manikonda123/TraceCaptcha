@@ -1,0 +1,10 @@
+So i made a program using html, css, and python
+
+It is supposed to show you some shapes, and you need to re-draw them on the board and check it to see if it is the correct shape.
+
+I transformed the drawing into data uri so it can be stored on local storage. The concept was supposed to be a python program that takes the data uri and transforms
+it back into an image and then It usses OpenCV to see what kind of image it is. Both sides work, they do what they are supposed to. Unfortuantly I can't seem to connect
+them together. I lack the knowladge and time. If you copy the console output of the uri from the html file, and paste it into the python code it should tell you the shape
+
+Thank you 
+
